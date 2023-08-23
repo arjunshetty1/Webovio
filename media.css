@@ -113,10 +113,11 @@
         flex-wrap: wrap;
         margin-top: 0;
         width: 100%;
+        padding-inline: 20px;
     }
 
     .brands img {
-        width: 8.5rem;
+        width: 7rem;
     }
 
     /* -------------------SECTION 2-------------------------- */
@@ -132,7 +133,7 @@
     }
 
     .section-2-left h2{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     .section-2-right-box {
@@ -148,14 +149,31 @@
 
     }
 
-
-    .section-2-right-top p {
-        width: 100%;
-    }
-
     .section-2 {
         width: 100%;
         height: 100%;
+    }
+
+    .section-2-right-bottom img{
+        width: 50px;
+    }
+    
+    .section-2-right-top p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    .section-2-right-bottom{
+        display: flex;
+        gap: 1.5rem;
+        width: 18rem;
+        font-size: .75rem;
+    } 
+
+    .right-side-bold{
+        font-weight: bold;
+        color: rgb(50, 50, 50);
+        font-size: .85rem;
     }
 
     /* ----------------SEC 3----------------------- */
@@ -182,30 +200,6 @@
     .section-3-content h1{
         width: 100%;
          color: rgb(75, 73, 73);
-    }
-
-
-
-    .section-2-right-bottom img{
-        width: 50px;
-    }
-    
-    .section-2-right-top p{
-        width: 100%;
-        font-size: 1rem;
-    }
-    
-    .section-2-right-bottom{
-        display: flex;
-        gap: 1.5rem;
-        width: 18rem;
-        font-size: .75rem;
-    } 
-
-    .right-side-bold{
-        font-weight: bold;
-        color: rgb(50, 50, 50);
-        font-size: .85rem;
     }
 
     /* ------------------FOOTER----------------------------------- */
@@ -284,5 +278,17 @@
 
     .line {
         display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 376px){
+    .section-3-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15%;
+        margin-top: 13rem;
     }
 }
