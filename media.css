@@ -24,7 +24,7 @@
 
     .hero {
         background-image: url('img1.png');
-        height: 48vh;
+        height: 28rem;
         width: 100%;
         background-position: center;
         background-size: cover;
@@ -45,20 +45,19 @@
 
 
     .hero_text {
-        width: 100vw;
-        font-size: 3rem;
+        width: 112%;
+        font-size: 1.85rem;
         line-height: 110%;
     }
 
 
     .hero_small {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
-
 
     .hero_small_2 {
         margin-bottom: 5%;
-        width: 100vw;
+        width: 100%;
         margin-top: 3%;
     }
 
@@ -79,7 +78,7 @@
     /* ------------------------------BRANDS----------------------------------- */
 
     .absoulte {
-        height: 32vh;
+        height: 100%;
         width: 100%;
         position: relative;
         left: 0%;
@@ -87,6 +86,7 @@
         border-radius: 0;
         padding-top: 26px;
         box-shadow: 0 0 3px grey;
+        padding-bottom: 0rem;
     }
 
 
@@ -97,7 +97,7 @@
     }
 
     .brands img {
-        width: 9rem;
+        width: 8.5rem;
     }
 
     /* -------------------SECTION 2-------------------------- */
@@ -108,13 +108,17 @@
     }
 
     .section-2-left {
-        width: 85vw;
+        width: 100%;
         margin-top: 4rem;
+    }
+
+    .section-2-left h2{
+        font-size: 1.6rem;
     }
 
     .section-2-right-box {
         gap: 25px;
-        width: 85vw;
+        width: 18rem;
         padding-right: 70px;
         padding-left: 12%;
         padding-top: 2rem;
@@ -127,38 +131,75 @@
 
 
     .section-2-right-top p {
-        width: 65vw;
+        width: 100%;
     }
 
     .section-2 {
         width: 100%;
-        height: 73vh;
+        height: 100%;
     }
 
     /* ----------------SEC 3----------------------- */
 
-    .section-3-content {
+
+    .section-3{
+        width: 100%;
+        height: 15rem;
+    }
+    
+    .section-3-content{
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         gap: 15%;
-        margin-top: 0%;
+        margin-top: 3rem;
+    }
+    
+    .section-3-content p{
+        width: 100%;
+         color: rgb(75, 73, 73);
+    }
+    
+    .section-3-content h1{
+        width: 100%;
+         color: rgb(75, 73, 73);
     }
 
-    .section-3 {
-        height: 25vh;
-    }
 
-    .section-3-content p {
-        width: 80vw;
-        margin-top: 2rem;
-    }
 
-    .section-3-content h1 {
-        width: 75vw;
+    .section-2-right-bottom img{
+        width: 50px;
+    }
+    
+    .section-2-right-top p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    .section-2-right-bottom{
+        display: flex;
+        gap: 1.5rem;
+        width: 18rem;
+        font-size: .75rem;
+    } 
+
+    .right-side-bold{
+        font-weight: bold;
+        color: rgb(50, 50, 50);
+        font-size: .85rem;
     }
 
     /* ------------------FOOTER----------------------------------- */
+
+
+    footer{
+        height: 63rem;
+        width: 100%;
+        background-color: #4c5038;
+        padding-top: 5rem;
+        
+    }
+
 
 
     .top-footer {
@@ -182,7 +223,7 @@
     }
 
     .top-footer-right {
-        gap: .5rem;
+        gap: .2rem;
     }
 
     .bottom_footer {
