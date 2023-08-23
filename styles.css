@@ -417,7 +417,8 @@ footer li:hover{
     z-index: 1000;
     right: .01%;
     transition: ease-in-out 0.2;
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .burger-toggle .bottom_footer{
