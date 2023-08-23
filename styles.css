@@ -165,12 +165,10 @@ nav .logo img{
     justify-content: center;
     gap: 25px;
     width: 35vw;
-    /* background-color: rgb(253, 247, 247); */
     background-color: #fff;
     padding-inline: 70px;
     padding-top: 11rem;
     padding-bottom: 2rem;
-    /* box-shadow: 5px 5px 5px 14px rgb(217, 217, 217); */
     box-shadow: 0 0 70px grey;
     border-radius: 3%;
     
@@ -183,10 +181,6 @@ nav .logo img{
 
 /* ---------------------middle-rectangle---------------------- */
 
-
-/* .middle-rectangle{
-   position: relative;
-} */
 
 .absoulte{
     height: 24vh;
@@ -209,7 +203,6 @@ nav .logo img{
 
 .hero{
     position: relative;
-    /* z-index: -2; */
 }
 
 
@@ -239,7 +232,6 @@ nav .logo img{
 .section-3-content{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 15%;
     margin-top: 4%;
 }
@@ -317,7 +309,6 @@ footer{
     background-color: rgb(112, 111, 111);
     position: relative;
     z-index: 100;
-    /* margin-left: 5%; */
     top: 10%;
 }
 
@@ -369,7 +360,6 @@ color: #9ca289;
 
 
 .sm img:hover{
-    /* background-color: blue; */
     position: relative;
     width: 23px;
     transition: ease-in-out 0.2s;
@@ -393,7 +383,6 @@ color: #9ca289;
     background-color: rgb(112, 111, 111);
     position: relative;
     z-index: 100;
-    /* margin-left: 5%; */
     top: 10%;
 }
 
@@ -421,16 +410,12 @@ footer li:hover{
 
 .burger-toggle{
     width: 100%;
-    /* bottom: 10px; */
     margin-top: 4rem;
     height:70vh;
     background-color: lightgoldenrodyellow;
     position: absolute;
     z-index: 1000;
     right: .01%;
-    /* margin-inline: rem; */
-    /* border-radius:2%; */
-    /* box-shadow: 0 0 100rem black; */
     transition: ease-in-out 0.2;
     display: none;
 }
@@ -442,9 +427,6 @@ footer li:hover{
 .nav{
     color: black;
 }
-
-
-
 
 .burger-toggle ul li:hover{
     color:rgb(7, 184, 249);
