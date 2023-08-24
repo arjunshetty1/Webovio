@@ -1,6 +1,8 @@
 const btn = document.getElementById('btn');
 const change = document.getElementById('change');
-const bg = document.getElementById('bg-clr')
+
+
+change.style.display = 'none';
 
 btn.addEventListener('click', () => {
     console.log('yes');
@@ -11,5 +13,3 @@ btn.addEventListener('click', () => {
         change.style.display = 'none';
     }
 });
-
-
