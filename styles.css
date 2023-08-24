@@ -417,7 +417,7 @@ footer li:hover{
     z-index: 1000;
     right: .01%;
     transition: ease-in-out 0.2;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
 }
 
